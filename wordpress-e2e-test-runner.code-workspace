@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "azurite.location": ".azurite",
+    "debug.internalConsoleOptions": "neverOpen",
+    "terminal.integrated.fontSize": 14
+  },
+  "extensions": {
+    "recommendations": [
+      // Azure
+      "ms-azuretools.vscode-azurefunctions",
+      // Azure storage emulator
+      "Azurite.azurite"
+    ]
+  }
+}

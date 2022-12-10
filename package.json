@@ -1,0 +1,20 @@
+{
+  "name": "@pedal-with-pete/wordpress-e2e-test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "gaxios": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "typescript": "^4.0.0"
+  }
+}
